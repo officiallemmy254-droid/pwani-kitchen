@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pwani Kitchen — Authentic Swahili Coastal Cuisine | Mombasa, Kenya</title>
+    <meta name="description" content="Experience the finest Swahili coastal cuisine at Pwani Kitchen, Nyali, Mombasa. Fresh seafood, traditional biryani, and ocean views. Book your table today.">
+    <meta name="keywords" content="Mombasa restaurant, Swahili food, coastal cuisine, Nyali restaurant, seafood Mombasa, biryani Kenya">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pwani Kitchen — Authentic Swahili Coastal Cuisine">
+    <meta property="og:description" content="Fresh seafood, traditional biryani, and breathtaking ocean views in Nyali, Mombasa.">
+    <meta property="og:image" content="images/hero.png">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🌊</span>
+                <span class="logo-text">Pwani<span class="logo-accent">Kitchen</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">Our Story</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#events" class="nav-link">Events</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#reserve" class="btn btn-primary nav-cta">Book a Table</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Pwani Kitchen oceanfront terrace at sunset" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tagline animate-slide-up">🌿 Authentic Swahili Coastal Cuisine</p>
+            <h1 class="hero-title animate-slide-up delay-1">Where the Ocean<br>Meets Your Plate</h1>
+            <p class="hero-subtitle animate-slide-up delay-2">Farm-to-table freshness, centuries-old recipes, and breathtaking Indian Ocean views in the heart of Nyali, Mombasa.</p>
+            <div class="hero-buttons animate-slide-up delay-3">
+                <a href="#reserve" class="btn btn-primary btn-lg">Reserve a Table</a>
+                <a href="#menu" class="btn btn-outline btn-lg">Explore Menu</a>
+            </div>
+            <div class="hero-stats animate-slide-up delay-4">
+                <div class="stat">
+                    <span class="stat-number">4.9</span>
+                    <span class="stat-label">★ Google Rating</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">12+</span>
+                    <span class="stat-label">Years of Flavor</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Happy Guests</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i data-lucide="chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="images/food-spread.png" alt="Traditional Swahili feast spread" loading="lazy">
+                    </div>
+                    <div class="about-img-accent">
+                        <img src="images/cocktails.png" alt="Tropical cocktails at Pwani Kitchen" loading="lazy">
+                    </div>
+                    <div class="about-badge">
+                        <span class="badge-number">Est.</span>
+                        <span class="badge-year">2014</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">A Taste of the Swahili Coast</h2>
+                    <p class="about-desc">Born from a love of the sea and generations of family recipes, Pwani Kitchen brings the authentic flavors of the Kenyan coast to your table. Our chefs source the freshest catches daily from local fishermen and pair them with aromatic spices traded along these shores for centuries.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i data-lucide="fish"></i>
+                            </div>
+                            <div>
+                                <h4>Ocean-Fresh Daily</h4>
+                                <p>Sourced from Mombasa's Old Port every morning</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i data-lucide="flame"></i>
+                            </div>
+                            <div>
+                                <h4>Wood-Fired Kitchen</h4>
+                                <p>Traditional charcoal & wood cooking methods</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i data-lucide="sunset"></i>
+                            </div>
+                            <div>
+                                <h4>Ocean-View Dining</h4>
+                                <p>Unmatched sunset views of the Indian Ocean</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Menu</span>
+                <h2 class="section-title">Savor the Coast</h2>
+                <p class="section-subtitle">Each dish is a journey through the rich culinary heritage of the Swahili coast</p>
+            </div>
+
+            <!-- Menu Filter -->
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="starters">Starters</button>
+                <button class="filter-btn" data-filter="mains">Mains</button>
+                <button class="filter-btn" data-filter="seafood">Seafood</button>
+                <button class="filter-btn" data-filter="desserts">Desserts</button>
+                <button class="filter-btn" data-filter="drinks">Drinks</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menuGrid">
+                <div class="menu-card" data-category="starters">
+                    <div class="menu-card-img">
+                        <img src="images/food-spread.png" alt="Mombasa Samosas" loading="lazy">
+                        <span class="menu-tag">Popular</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Mombasa Samosas</h3>
+                            <span class="menu-price">KSH 450</span>
+                        </div>
+                        <p>Crispy golden pastries filled with spiced minced beef, served with tamarind chutney</p>
+                        <div class="menu-tags"><span class="tag">🌶️ Mildly Spiced</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="starters">
+                    <div class="menu-card-img">
+                        <img src="images/food-spread.png" alt="Bhajia Platter" loading="lazy">
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Bhajia Platter</h3>
+                            <span class="menu-price">KSH 350</span>
+                        </div>
+                        <p>Golden potato fritters with coastal spice blend, served with fresh lime & chili sauce</p>
+                        <div class="menu-tags"><span class="tag">🥬 Vegetarian</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="images/biryani.png" alt="Swahili Lamb Biryani" loading="lazy">
+                        <span class="menu-tag chef">Chef's Pick</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Swahili Lamb Biryani</h3>
+                            <span class="menu-price">KSH 1,200</span>
+                        </div>
+                        <p>Aromatic saffron basmati rice layered with slow-cooked lamb, fried onions, and toasted cashews</p>
+                        <div class="menu-tags">
+                            <span class="tag">🌶️ Aromatic</span>
+                            <span class="tag">⭐ Signature</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="mains">
+                    <div class="menu-card-img">
+                        <img src="images/food-spread.png" alt="Coconut Chicken Curry" loading="lazy">
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Kuku Paka</h3>
+                            <span class="menu-price">KSH 950</span>
+                        </div>
+                        <p>Chargrilled chicken simmered in rich coconut curry with cardamom, served with chapati</p>
+                        <div class="menu-tags"><span class="tag">🥥 Coconut-Based</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="seafood">
+                    <div class="menu-card-img">
+                        <img src="images/seafood.png" alt="Grilled Red Snapper" loading="lazy">
+                        <span class="menu-tag">Popular</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Grilled Red Snapper</h3>
+                            <span class="menu-price">KSH 1,800</span>
+                        </div>
+                        <p>Whole red snapper marinated in tamarind & chili, wood-fire grilled, with fresh herbs and lime</p>
+                        <div class="menu-tags">
+                            <span class="tag">🔥 Wood-Fired</span>
+                            <span class="tag">🐟 Fresh Catch</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="seafood">
+                    <div class="menu-card-img">
+                        <img src="images/food-spread.png" alt="Garlic Butter Prawns" loading="lazy">
+                        <span class="menu-tag chef">Chef's Pick</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Garlic Butter Prawns</h3>
+                            <span class="menu-price">KSH 2,200</span>
+                        </div>
+                        <p>Jumbo Malindi prawns sautéed in garlic butter with white wine, served on saffron rice</p>
+                        <div class="menu-tags"><span class="tag">🦐 Premium</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="images/dessert.png" alt="Kashata & Mahamri" loading="lazy">
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Kashata & Mahamri</h3>
+                            <span class="menu-price">KSH 400</span>
+                        </div>
+                        <p>Traditional coconut candy squares paired with golden fried cardamom dough, dusted with sugar</p>
+                        <div class="menu-tags">
+                            <span class="tag">🥥 Coconut</span>
+                            <span class="tag">🍬 Sweet</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="desserts">
+                    <div class="menu-card-img">
+                        <img src="images/dessert.png" alt="Mango Kulfi" loading="lazy">
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Mango Kulfi</h3>
+                            <span class="menu-price">KSH 350</span>
+                        </div>
+                        <p>Creamy frozen mango dessert with crushed pistachios and rose water drizzle</p>
+                        <div class="menu-tags"><span class="tag">🥭 Tropical</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-card-img">
+                        <img src="images/cocktails.png" alt="Tropical Cocktails" loading="lazy">
+                        <span class="menu-tag">Popular</span>
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Diani Sunset Mojito</h3>
+                            <span class="menu-price">KSH 650</span>
+                        </div>
+                        <p>Passion fruit muddled with fresh mint, lime, and premium white rum over crushed ice</p>
+                        <div class="menu-tags"><span class="tag">🍹 Signature Cocktail</span></div>
+                    </div>
+                </div>
+
+                <div class="menu-card" data-category="drinks">
+                    <div class="menu-card-img">
+                        <img src="images/cocktails.png" alt="Fresh Juices" loading="lazy">
+                    </div>
+                    <div class="menu-card-body">
+                        <div class="menu-card-header">
+                            <h3>Tropical Mango Daiquiri</h3>
+                            <span class="menu-price">KSH 700</span>
+                        </div>
+                        <p>Fresh Kilifi mangoes blended with aged rum, lime juice, and a hint of chili</p>
+                        <div class="menu-tags"><span class="tag">🥭 Fresh Fruit</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ RESERVATION ============ -->
+    <section class="section reserve-section" id="reserve">
+        <div class="container">
+            <div class="reserve-grid">
+                <div class="reserve-info">
+                    <span class="section-label">Reservations</span>
+                    <h2 class="section-title">Book Your<br>Table Tonight</h2>
+                    <p class="reserve-desc">Secure your spot at the coast's most sought-after table. Whether it's a romantic dinner or a celebration with friends, we'll make it unforgettable.</p>
+                    <div class="reserve-details">
+                        <div class="reserve-detail">
+                            <i data-lucide="clock"></i>
+                            <div>
+                                <h4>Opening Hours</h4>
+                                <p>Tue – Sun: 11:00 AM – 11:00 PM</p>
+                                <p>Monday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="reserve-detail">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Links Road, Nyali</p>
+                                <p>Mombasa, Kenya</p>
+                            </div>
+                        </div>
+                        <div class="reserve-detail">
+                            <i data-lucide="phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+254 700 123 456</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reserve-form-wrapper">
+                    <form class="reserve-form" id="reserveForm">
+                        <h3 class="form-title">Make a Reservation</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="resName">Full Name</label>
+                                <input type="text" id="resName" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="resPhone">Phone</label>
+                                <input type="tel" id="resPhone" placeholder="+254 700 000 000" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="resDate">Date</label>
+                                <input type="date" id="resDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="resTime">Time</label>
+                                <select id="resTime" required>
+                                    <option value="">Select time</option>
+                                    <option>11:00 AM</option>
+                                    <option>12:00 PM</option>
+                                    <option>1:00 PM</option>
+                                    <option>2:00 PM</option>
+                                    <option>6:00 PM</option>
+                                    <option>7:00 PM</option>
+                                    <option>8:00 PM</option>
+                                    <option>9:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="resGuests">Guests</label>
+                                <select id="resGuests" required>
+                                    <option value="">How many?</option>
+                                    <option>1 Guest</option>
+                                    <option>2 Guests</option>
+                                    <option>3–4 Guests</option>
+                                    <option>5–6 Guests</option>
+                                    <option>7–10 Guests</option>
+                                    <option>10+ (Private Event)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="resEmail">Email</label>
+                                <input type="email" id="resEmail" placeholder="you@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="resNotes">Special Requests</label>
+                            <textarea id="resNotes" rows="3" placeholder="Allergies, celebrations, seat preference..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="reserveBtn">
+                            <span>Confirm Reservation</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </form>
+                    <!-- Success State -->
+                    <div class="reserve-success" id="reserveSuccess" style="display:none;">
+                        <div class="success-icon">✅</div>
+                        <h3>Reservation Confirmed!</h3>
+                        <p>Thank you! We've received your booking. You'll receive a confirmation SMS shortly at the number provided.</p>
+                        <button class="btn btn-outline" id="newReservation">Make Another Reservation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PRIVATE EVENTS ============ -->
+    <section class="section events-section" id="events">
+        <div class="container">
+            <div class="events-banner">
+                <div class="events-content">
+                    <span class="section-label light">Private Events & Catering</span>
+                    <h2 class="section-title light">Host Your Next Event<br>by the Ocean</h2>
+                    <p>From intimate birthdays to grand corporate galas, our dedicated events team creates bespoke dining experiences. Exclusive beachfront terrace, custom menus, and impeccable service.</p>
+                    <div class="events-features">
+                        <div class="event-feat"><i data-lucide="users"></i><span>Up to 200 Guests</span></div>
+                        <div class="event-feat"><i data-lucide="utensils"></i><span>Custom Menus</span></div>
+                        <div class="event-feat"><i data-lucide="music"></i><span>Live Entertainment</span></div>
+                        <div class="event-feat"><i data-lucide="camera"></i><span>Photo-Ready Venue</span></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary btn-lg">Inquire Now</a>
+                </div>
+                <div class="events-img">
+                    <img src="images/hero.png" alt="Private dining at Pwani Kitchen" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What Guests Say</span>
+                <h2 class="section-title">Loved by Locals & Travellers</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The best seafood I've ever had in East Africa. The grilled snapper was cooked to perfection, and the views are absolutely incredible. We came for dinner and stayed for the sunset."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AW</div>
+                        <div>
+                            <h4>Amina Wanjiku</h4>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card featured">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"We hosted our company retreat dinner here — the private events team was phenomenal. Custom menu, flawless service, and our guests are still talking about the biryani. Absolutely world-class."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DM</div>
+                        <div>
+                            <h4>David Maina</h4>
+                            <span>CEO, TechVentures Ltd</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"A hidden gem on the Kenyan coast! The coconut prawns were divine, and the cocktails were creative and refreshing. Perfect spot for a romantic evening. Will definitely come back!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SL</div>
+                        <div>
+                            <h4>Sarah & Luke</h4>
+                            <span>London, UK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-box">
+                <div class="newsletter-content">
+                    <h3>Stay in the Loop</h3>
+                    <p>Get exclusive offers, new menu alerts, and invitations to special tastings delivered to your inbox.</p>
+                </div>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required id="newsletterEmail">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT & MAP ============ -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Get in Touch</span>
+                <h2 class="section-title">Find Us</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-cards">
+                    <div class="contact-card">
+                        <i data-lucide="map-pin"></i>
+                        <h4>Address</h4>
+                        <p>Links Road, Nyali Beach<br>Mombasa, Kenya 80100</p>
+                    </div>
+                    <div class="contact-card">
+                        <i data-lucide="phone"></i>
+                        <h4>Phone</h4>
+                        <p>+254 700 123 456<br>+254 741 987 654</p>
+                    </div>
+                    <div class="contact-card">
+                        <i data-lucide="mail"></i>
+                        <h4>Email</h4>
+                        <p>hello@pwani.kitchen<br>events@pwani.kitchen</p>
+                    </div>
+                    <div class="contact-card">
+                        <i data-lucide="clock"></i>
+                        <h4>Hours</h4>
+                        <p>Tue – Sun: 11AM – 11PM<br>Monday: Closed</p>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.758!2d39.705!3d-4.025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMDEnMzAuMCJTIDM5wrA0MicxOC4wIkU!5e0!3m2!1sen!2ske!4v1700000000000"
+                        width="100%"
+                        height="100%"
+                        style="border:0; border-radius: 16px;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Pwani Kitchen location map">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">🌊</span>
+                        <span class="logo-text">Pwani<span class="logo-accent">Kitchen</span></span>
+                    </a>
+                    <p>Authentic Swahili coastal cuisine served with ocean views and warm hospitality in Nyali, Mombasa.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="TripAdvisor"><i data-lucide="globe"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">Our Story</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reserve">Reservations</a></li>
+                        <li><a href="#events">Private Events</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Join Our Community</h4>
+                    <p>Follow us on social media for daily specials and behind-the-scenes moments.</p>
+                    <a href="#" class="btn btn-outline btn-sm">Follow @PwaniKitchen</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pwani Kitchen. All rights reserved. | Demo Site by <strong>Your Agency Name</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
